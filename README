@@ -22,3 +22,12 @@ Afterwards enter the following command to build and install dmenu
 Running dmenu
 -------------
 See the man page for details.
+
+Patches
+-------
+Patches are included in the file entitled list-of-patches.readme
+
+Example of usage
+----------------
+1. dmenu_run -p "dmenu:" -h 23 -nb "#222222" -sb "#6790EB"
+2. dmenu_run -p "dmenu:" -h 23 -nb "#222222" -sb "#6790EB" -c -bw 1 -l 20 -g 4
